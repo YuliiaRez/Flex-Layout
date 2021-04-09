@@ -1,0 +1,100 @@
+@import './reset.css';
+* {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    line-height: 1.2em;
+}
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+}
+.section_logo{
+    background-image: url(../images/greyimage.jpg);
+    background-size: 100% auto;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 15%; 
+    
+}
+h1{
+    
+    font-size: 1.5em;
+    margin-top: 10px;
+    line-height: 1.2em;
+    width: 100%;
+    text-align: center;
+    }
+p{
+    padding-top: 4%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo_p{
+    width: 50%;
+}
+.logo_img{
+    width: 15%;    
+    height: 15%;
+    text-align: center;
+}
+.logo {
+    text-align: center;
+}
+
+.section_icons{
+    display: flex;
+    text-align: center;
+}
+.icon_card{
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7em;
+}
+h2{
+    font: bolder;
+    font-size: 1.4em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.about_us
+{
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+
+}
+.icon_about_us, article{
+    width: 45%;
+    margin-top: 4%;
+    margin-bottom: 4%;  
+}
+.icon_about_us{
+    padding-top: 1em;
+}
+footer {
+    background: #333;
+    color: #f4f4f4;
+}
+
+
+
