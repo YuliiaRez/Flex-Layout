@@ -1,13 +1,17 @@
 /*@import './reset.css';*/
+:root {
+    --main-light-color: #f4f4f4;
+    --main-dark-color: #333;
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body {
-    background: rgba(0, 0, 0, 0.9);
+    background: var(--main-dark-color);
     margin: 0;
-    color: #fff;
+    color: var(--main-light-color);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
@@ -39,8 +43,6 @@ h1 {
     font-size: 2.2em;
     margin-top: 1rem;
     line-height: 1.2em;
-    /*width: 100%;*/
-    /*text-align: center;*/
 }
 p {
     text-align: center;
@@ -89,8 +91,8 @@ h2 {
     text-align: center;
 }
 .about_us {
-    background: #f4f4f4;
-    color: #333;
+    background: var(--main-light-color);
+    color: var(--main-dark-color);
     vertical-align: middle;
     display: flex;
     flex-direction: row;
@@ -108,8 +110,8 @@ h2 {
     max-width: 450px;
 }
 footer {
-    background: #333;
-    color: #f4f4f4;
+    background: var(--main-dark-color);
+    color: var(--main-light-color);
     text-align: center;
     margin: auto;
     padding: 2.2rem;
